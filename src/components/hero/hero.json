@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "text"
+    }
+  }
+}

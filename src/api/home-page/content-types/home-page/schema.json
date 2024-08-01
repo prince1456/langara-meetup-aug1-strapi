@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hero.hero"
+    },
+    "dynamic": {
+      "type": "dynamiczone",
+      "components": [
+        "hero.hero"
+      ]
+    }
+  }
+}
